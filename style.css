@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#C0BAB6;
+    cursor: default;
+}
+
+header {
+    background-color: #333333;
+    padding-bottom: 1%;
+}
+
+header h1,p {
+    padding-left:5%;
+}
+
+header h1 {
+    padding-top: 1%;
+}
+
+div {
+    background-color: #232323;
+    width: 90%;
+    margin:1% 5%;
+}
+
+li {
+    display: inline;
+    line-height: 3em;
+    padding-left: 3%;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color:#919191;
+    transition: all 0.5s;
+}
+
+main {
+    padding-top: 1%;
+}
+
+.centar {
+    width: 30%;
+    height: 58%;
+    position: absolute;
+    float: left;
+}
+
+#slika {
+   position: absolute;
+   margin-left:100%;
+   top:0;
+   width: 198%;
+}
+
+main h1 {
+    font-style: italic;
+    text-align: left;
+    width: 80%;
+    padding: 3%;
+    font-size: 2.5em;
+}
+
+main p {
+    padding-top: 3%;
+    text-align: justify;
+    width: 80%;
+}
+
+main h2 {
+    margin-top: 32%;
+    padding-left: 5%;
+    font-style: italic;
+    display: block;
+}
+
+.text {
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+.text2 {
+    left:0;
+    padding-top: 8%;
+    width: 50%;
+    display: inline-block;
+    position: absolute;
+}
+
+span {
+    color:#FF9900;
+    cursor: pointer;
+}
+
+.slike {
+    display: inline-block;
+    height:9.5em;
+} 
+
+main img:nth-child(1) {
+    border:0.2em solid #C0BAB6;
+    padding: 0.5%;
+}
+
+#lista {
+    display: inline;
+    padding-left: 55%;
+}
+
+main p:nth-child(6) {
+    float:right;
+    padding-left: 43%;
+    position: relative;
+    cursor: pointer;
+}
+
+footer {
+    border-top:solid 0.2em #C0BAB6;
+    width:90%;
+    margin:8% auto;
+    position: relative;
+}
+
+footer ul li {
+    display: inline-block;
+    padding-left: 0;
+    width: 20%;
+}
+
+#naslov {
+    padding-top: 5%; 
+    font-style:italic;
+}
+
+.red {
+    padding: 2% 10%;
+}
+
+#adresa {
+    display: block;
+}
+
+#read {
+    display: block;
+
+}
+
+.naslov2 {
+    display: inline;
+    position: absolute;
+    padding-left: 30%;
+    top:0;
+    padding-top: 5%;
+   width: 50%;
+   font-style:italic;
+}
+
+.naslov3 {
+    display: inline;
+    position: absolute;
+    padding-left: 60%;
+    top:0;
+    padding-top: 5%;
+   width: 100%;
+   font-style:italic;
+}
+
+#lista2 {
+    margin-left: 32%;
+    top:0;
+    position: absolute;
+    padding-top:9%;
+}
+
+.lorem {
+    border-bottom:0.2em solid #C0BAB6;
+    width:100%;
+    display: block;
+}
+
+.lorem2 {
+    margin:9% 73%;
+    width:30%;
+    top:0;
+    display: block;
+    position: absolute;
+    line-height: 2em;
+}
+
+.slika2 {
+    width: 12%;
+    height:30%;
+    display: block;
+    margin:10% 60%;
+    position: absolute;
+    top:0;
+}
+
+footer img:nth-child(1) {
+    border:0.2em solid #C0BAB6;
+    padding: 0.5%;
+}
+
+#copy {
+    background-color: #232323;
+    width: 100%;
+    position: absolute;
+    margin-left: 0;
+    line-height: 3em;
+    padding-left: 5%;
+}
+
+
